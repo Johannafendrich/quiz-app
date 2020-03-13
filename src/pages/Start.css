@@ -1,14 +1,5 @@
-a {
-  color: black;
-  font-style: none;
-}
-a:hover {
-  color: #fff;
-}
-
 .startLogo {
   height: 200px;
-  margin-top: 80px;
 }
 
 .startLogo:hover {
