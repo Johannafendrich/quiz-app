@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 body {
+  display: flex;
+  justify-content: center;
   margin: 0;
   font-size: 16px;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Cabin', sans-serif;
+  background-image: url(./bgImage.png);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
