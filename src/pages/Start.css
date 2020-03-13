@@ -1,24 +1,22 @@
-.button {
-  background-color: white;
-  width: 100px;
-  height: 30px;
-  border-radius: 20px;
-  border-style: none;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 20px;
-  font-family: 'Cabin', sans-serif;
-}
-
-.button:hover {
-  background-color: #6067d1;
-  color: #fff;
-}
-
 a {
   color: black;
   font-style: none;
 }
 a:hover {
   color: #fff;
+}
+
+.startLogo {
+  height: 200px;
+  margin-top: 80px;
+}
+
+.startLogo:hover {
+  background-color: white;
+  box-shadow: rgb(36, 35, 35) 0 0 20px;
+}
+
+.startLogo:active {
+  background-color: #6067d1;
+  box-shadow: rgb(36, 35, 35) 0 0 20px;
 }
