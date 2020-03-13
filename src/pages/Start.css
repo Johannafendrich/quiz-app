@@ -1,0 +1,13 @@
+.startLogo {
+  height: 200px;
+}
+
+.startLogo:hover {
+  background-color: white;
+  box-shadow: rgb(36, 35, 35) 0 0 20px;
+}
+
+.startLogo:active {
+  background-color: #6067d1;
+  box-shadow: rgb(36, 35, 35) 0 0 20px;
+}
