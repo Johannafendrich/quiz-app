@@ -6,4 +6,9 @@
 body {
   margin: 0;
   font-size: 16px;
+  height: 100%;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Cabin', sans-serif;
+  background-image: url(./bgImage.png);
+  background-repeat: no-repeat;
 }
