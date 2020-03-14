@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './pages/Home';
 import Start from './pages/Start';
-import QandA from './pages/QandA';
+import Game from './pages/Game';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ function App() {
             <Start />
           </Route>
           <Route path="/quiz">
-            <QandA />
+            <Game />
           </Route>
         </Switch>
       </main>

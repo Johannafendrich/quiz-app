@@ -9,9 +9,6 @@ function Start() {
       <Link to="/Home">
         <img className="startLogo" src={quizLogo} alt="logo" />
       </Link>
-      {/* <button class="button"> */}
-      {/* <Link to="/Home">Start</Link> */}
-      {/* </button> */}
     </>
   );
 }

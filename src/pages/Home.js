@@ -8,10 +8,11 @@ function Home() {
   return (
     <>
       <Header />
-      <Card></Card>
-      <button className="button">
-        <Link to="/Start">Weiter</Link>
-      </button>
+      <Card>
+        <button className="buttonLink">
+          <Link to="/Quiz">Weiter</Link>
+        </button>
+      </Card>
     </>
   );
 }

@@ -1,16 +1,14 @@
-.button {
-  background-color: white;
+.buttonLink {
+  background-color: #bd4e5d;
   width: 100px;
   height: 30px;
   border-radius: 20px;
   border-style: none;
-  position: absolute;
-  bottom: 0;
   margin-bottom: 20px;
   font-family: 'Cabin', sans-serif;
 }
 
-.button:hover {
+.buttonLink:hover {
   background-color: #6067d1;
   color: #fff;
 }
