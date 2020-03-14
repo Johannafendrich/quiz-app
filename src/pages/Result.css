@@ -1,13 +1,14 @@
-.intro {
-  width: 60%;
-  height: 80px;
-  margin-top: 20px;
-  margin-bottom: 150px;
-  padding: 20px;
+.result {
+  font-family: 'Kalam';
+  font-size: 30px;
+  padding: 0 5px;
+  margin: 20px;
 }
 
 .buttonLink {
   background-color: #bd4e5d;
+  width: 60%;
+  margin-top: 20px;
   height: 40px;
   border: #bd4e5d;
   border-radius: 20px;

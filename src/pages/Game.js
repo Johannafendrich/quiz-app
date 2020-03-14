@@ -27,7 +27,7 @@ function Quiz() {
           </div>
 
           <button className="buttonLink">
-            <Link to="/Start">Weiter</Link>
+            <Link to="/Result">Dein Ergebnis</Link>
           </button>
         </div>
       </Card>
