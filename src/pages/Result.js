@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
+import AppHeader from '../components/AppHeader';
 import Card from '../components/Card';
 import './Result.css';
 
 function Result() {
   return (
     <>
-      <Header />
+      <AppHeader />
       <Card>
         <div className="quiz">
           <h2 className="result">Glückwunsch, du bist ein echter Jeck!</h2>
