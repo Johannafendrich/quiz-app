@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Game.css';
-import Header from '../components/Header';
+import AppHeader from '../components/AppHeader';
 import Card from '../components/Card';
 
 function Quiz() {
   return (
     <>
-      <Header />
+      <AppHeader />
       <Card>
         <div className="quiz">
           <h2 className="question">
