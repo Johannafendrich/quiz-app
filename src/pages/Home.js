@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import Header from '../components/Header';
+import AppHeader from '../components/AppHeader';
 import Card from '../components/Card';
 
 function Home() {
   return (
     <>
-      <Header />
+      <AppHeader />
       <Card>
         <img
           src="https://images.unsplash.com/photo-1561624485-0e43bcc1836d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=350&q=80"
