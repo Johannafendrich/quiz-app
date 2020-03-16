@@ -3,27 +3,41 @@ import { Link } from 'react-router-dom';
 import './Game.css';
 import AppHeader from '../components/AppHeader';
 import Card from '../components/Card';
+import { useParams } from 'react-router-dom';
 
-function Quiz() {
+const QUIZ_API_URL =
+  process.env.REACT_APP_QUIZ_API ||
+  'https://my-json-server.typicode.com/Johannafendrich/quiz-app/quiz';
+function Game() {
+  const { quizId } = useParams();
+  const [quiz, setQuiz] = React.useState(null);
+
+  React.useEffect(() => {
+    async function getQuiz() {
+      const response = await fetch(`${QUIZ_API_URL}/${quizId}`);
+      const quiz = await response.json();
+      setQuiz(quiz);
+    }
+    getQuiz();
+  }, [quizId]);
+
   return (
     <>
       <AppHeader />
       <Card>
         <div className="quiz">
-          <h2 className="question">
-            This is an awesome Question – do you now the Answer?
-          </h2>
+          <h2 className="question">{quiz?.question}</h2>
           <div className="choice-container">
-            <p className="choice-text">Choice 1</p>
+            <p className="choice-text">{quiz?.choice1}</p>
           </div>
           <div className="choice-container">
-            <p className="choice-text">Choice 2</p>
+            <p className="choice-text">{quiz?.choice2}</p>
           </div>
           <div className="choice-container">
-            <p className="choice-text">Choice 3</p>
+            <p className="choice-text">{quiz?.choice3}</p>
           </div>
           <div className="choice-container">
-            <p className="choice-text">Choice 4</p>
+            <p className="choice-text">{quiz?.choice4}</p>
           </div>
 
           <button className="buttonLink">
@@ -35,4 +49,4 @@ function Quiz() {
   );
 }
 
-export default Quiz;
+export default Game();
