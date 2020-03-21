@@ -5,6 +5,7 @@ import AppHeader from '../components/AppHeader';
 import Card from '../components/Card';
 import { useParams } from 'react-router-dom';
 
+
 const QUIZ_API_URL =
   process.env.REACT_APP_QUIZ_API ||
   'https://my-json-server.typicode.com/Johannafendrich/quiz-app/quiz';
@@ -29,6 +30,7 @@ function Game() {
     <>
       <AppHeader />
       <Card>
+
         <div className="quiz" onSubmit={handleSubmit}>
           <h2 className="question">{quiz?.question}</h2>
           <div className="choice-container">
@@ -52,5 +54,4 @@ function Game() {
     </>
   );
 }
-
 export default Game;
