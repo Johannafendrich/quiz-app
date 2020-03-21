@@ -1,1 +1,33 @@
-{}
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Wie viele Veedel hat Köln?",
+      "choice1": "86",
+      "choice2": "74",
+      "choice3": "56",
+      "choice4": "64",
+      "answer": 1
+    },
+
+    {
+      "id": 2,
+      "question": "Wie viele Brücken gibt es in Köln?",
+      "choice1": "5",
+      "choice2": "9",
+      "choice3": "7",
+      "choice4": "6",
+      "answer": 3
+    },
+
+    {
+      "id": 3,
+      "question": "Wann beginnt Karneval?",
+      "choice1": "Am 11. November",
+      "choice2": "Am 11. Dezember",
+      "choice3e": "Am 01. Februar",
+      "choice4": "Am 12. März",
+      "answer": 1
+    }
+  ]
+}
