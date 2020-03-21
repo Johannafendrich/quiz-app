@@ -25,7 +25,7 @@ function Home() {
           </IntroText>
 
           <button className="buttonLink">
-            <Link to="/Quiz">Start</Link>
+            <Link to="/quiz/1">Start</Link>
           </button>
         </IntroSection>
       </Card>
